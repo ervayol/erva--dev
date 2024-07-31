@@ -1,10 +1,46 @@
-.title{
-    color:red 
+body{
+
+    background-color: AliceBlue;
 }
- .title-2{
-    font-size:80px
- }
-#name{
-    color:yellow;
-    font-size: 300px
+h1{
+    color:lightseagreen;
+    font-size:60px;
+}
+
+h2{
+    color:MediumSeaGreen;
+    font-size:40px;
+}
+
+h3{
+    color:DarkSeaGreen;
+    
+}
+
+  ul {        
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:Aquamarine ;    /* o üstteki menü navbar şeridinin rengi*/
+  }
+  
+  li {
+    float: left;  /* menü yani navbar yerinin nerde olcağı*/
+  }
+  
+  li a {
+    display: block;
+    color: tomato;   /*üstündeki yazının rengi*/
+    text-align: center;
+    padding: 20px 16px; /* ilk baştaki şeridin kalınlığını, diğeri yazılar arasındaki boşlugu ayarlıyor*/
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: CadetBlue;  /* fare ile yazının üstüne geldiğimde olan renk belirleniyor */
+  }
+  .sol{   
+    float:left;
+    padding: 0 10px 10px 0;
 }
