@@ -5,24 +5,30 @@ body{
 h1{
     color:lightseagreen;
     font-size:60px;
+    padding: 50px;
+    margin:100px;
+    float:left;
 }
 
 h2{
-    color:MediumSeaGreen;
-    font-size:40px;
+    color:rgb(29, 106, 151);
+    font-size:30px;
 }
 
 h3{
     color:DarkSeaGreen;
     
 }
-
+p{
+  font-size: 20px;
+}
+/* ------Navbar------*/
   ul {        
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:Aquamarine ;    /* o üstteki menü navbar şeridinin rengi*/
+    background-color:black ;    /* o üstteki menü navbar şeridinin rengi*/
   }
   
   li {
@@ -31,16 +37,86 @@ h3{
   
   li a {
     display: block;
-    color: tomato;   /*üstündeki yazının rengi*/
+    color: white;   /*üstündeki yazının rengi*/
     text-align: center;
+    font-size: 25px;;
     padding: 20px 16px; /* ilk baştaki şeridin kalınlığını, diğeri yazılar arasındaki boşlugu ayarlıyor*/
     text-decoration: none;
   }
   
   li a:hover {
-    background-color: CadetBlue;  /* fare ile yazının üstüne geldiğimde olan renk belirleniyor */
+    background-color: rgb(85, 100, 100);  /* fare ile yazının üstüne geldiğimde olan renk belirleniyor */
   }
   .sol{   
     float:left;
     padding: 0 10px 10px 0;
 }
+
+/* ----ikili sayfa  about sayfası-----*/
+.box{
+  width: 100%;
+  height: 120vh;
+  background-color: aliceblue;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container{
+        display:flex;   
+        height: 120vh;
+        width: 100%;
+        padding: 20px;      /* kutu ile içerik arası mesafe */
+       /* margin-left: auto;*/       /*içerik ile dışarısı arası boşluk*/
+       /* margin-right: auto;*/
+       /* flex:1*/ 
+}
+.left .right {
+  flex:1;
+}
+
+.left{
+  background-color: white;
+  width: 50%;
+  padding: 20px;
+  margin-bottom: 40px;
+  margin-left: auto;
+ /* flex:1*/ 
+}
+.right{
+  background-color: white;
+  width: 50%;
+  padding: 20px;
+  margin-bottom: 40px;
+  margin-right: auto;
+ 
+  /*flex:1 */
+  
+}
+.clear{
+  clear:both;
+}
+/*---------------Skill---------------*/
+
+.bar {
+  width: 100%;
+  background-color: rgb(196, 221, 238);
+  border-radius: 10px;
+  height: 15px;
+ /* overflow: hidden;
+  position: relative;
+  background: gray;
+  min-height: auto;*/
+  background-color: rgb(134, 197, 226);
+}
+
+.bar_div {
+  height: 15px;
+  border-radius: 25px;
+  background-color: rgb(24, 87, 202);
+  border-radius: 10px;
+}
+/*
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+*/
